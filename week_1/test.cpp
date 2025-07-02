@@ -50,7 +50,7 @@ void test_multiplicative_inverse() {
     // assert(get_multiplicative_inverse(456, 10007) == 9847);
 
     // ============================================
-    // TODO: Negative base (if your fast_exponent handles negatives correctly)
+    // TODO: Negative base (if fast_exponent handles negatives correctly)
     assert(get_multiplicative_inverse(-3, 7) == 2); // -3 ≡ 4 mod 7, inverse of 4 is 2
 
     // ============================================
